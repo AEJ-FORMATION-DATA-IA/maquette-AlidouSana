@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(35, 39, 44);
+}
+.igs-menu{
+    display: flex;
+}
+.igs-list-menu{
+    width: 1500px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.igs-menu-lien{
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+.igs-pesentation-lien, .igs-menu-lien, .igs-container{
+    color: white;
+}
+.igs-bas-titre{
+    color: rgb(181, 201, 201);
+}
+.igs-titre{
+    font-size: 20px;
+}
+.igs-javascript{
+    font-size: 13px;
+}
+
+.igs-logo-menu{
+    margin: -8px;
+    list-style-type: none;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+/*CORPS*/
+.igs-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.igs-presentation{
+    margin: 10px;
+    width: 500px;
+}
+.igs-competences{
+    margin: 25px;
+}
+
+.igs-nom{
+    font-size: 90px;
+    font-weight: bold;
+}
+.igs-highliht{
+    margin: 8px;
+}
+.igs-front-end, .igs-building{
+    padding: 5px;
+    margin: 15px;
+    background-color: rgba(45, 50, 50, 0.8);
+    width: 500px;
+}
